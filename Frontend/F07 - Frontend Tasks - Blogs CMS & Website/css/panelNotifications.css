@@ -1,0 +1,66 @@
+body>div>span:last-of-type{
+    font-size: 18px;
+    font-weight: 500;
+    color: #11142D;
+    padding-bottom: 26px;
+    padding-top: 33px;
+}
+
+body>div>section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    font-size: 16px;
+}
+
+body>div>section>section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 12px;
+    max-width: 567px;
+    padding: 22px 155px 30px 16px;
+}
+
+body>div>section>section>div:last-of-type{
+    display: flex;
+    flex-direction: column;
+}
+
+body>div>section>section>div:last-of-type>span:nth-child(1){
+    color: #11142D;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+body>div>section>section>div:last-of-type>span:nth-child(2){
+    color: #B2B3BD;
+    font-size: 0.88em;
+    font-weight: 400;
+}
+
+body>div>section>section>div:last-of-type>p{
+    color: #808191;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+body>div>section>div{
+    display: flex;
+    max-width: 768px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+body>div>section>div>button{
+    border-radius: 10px;
+    background-color: #1D968D;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    height: 48px;
+    width: 154px;
+}

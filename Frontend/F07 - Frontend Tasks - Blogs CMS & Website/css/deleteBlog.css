@@ -1,0 +1,47 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0px;
+}
+
+body > div{
+    width: 384px;
+    height: 135px;
+    padding: 20px 25px;
+    font-size: 16px;
+}
+
+form > span{
+    display: block;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #EBEFF2;
+    margin-bottom: 20px;
+}
+
+form > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+form > div > button{
+    font-size: 1em;
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+form > div > button:first-of-type{
+    color: black;
+    background-color: #F4F4F4;
+}
+
+form > div > button:last-of-type{
+    color: white;
+    background-color: #FF1A1A;
+}

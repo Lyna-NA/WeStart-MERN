@@ -1,0 +1,96 @@
+/* Aside */
+aside>ul:first-of-type>li:nth-child(3) {
+    background-color: #1D968D;
+}
+
+aside>ul:first-of-type>li:nth-child(3)>a {
+    color: white;
+    font-weight: 600;
+}
+
+body>div>section {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 20px 40px 40px 20px;
+    border: 1px solid #E2E2EA;
+    border-radius: 20px;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 100%;;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+body>div>section>section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    width: 227px;
+}
+
+body>div>section>section:nth-child(1),
+body>div>section>section:nth-child(5) {
+    background-color: rgb(29, 150, 141, 0.05);
+}
+
+body>div>section>section:nth-child(2), 
+body>div>section>section:nth-child(6) {
+    background-color: rgb(255, 151, 74, 0.05);
+}
+
+body>div>section>section:nth-child(3), 
+body>div>section>section:nth-child(7) {
+    background-color: rgb(0, 121, 191, 0.05);
+}
+
+body>div>section>section:nth-child(4){
+    background-color: rgb(120, 61, 189, 0.05);
+}
+
+body>div>section>section>span:nth-child(1){
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+body>div>section>section:nth-child(1)>span:nth-child(1),
+body>div>section>section:nth-child(5)>span:nth-child(1) {
+    color: #1D968D;
+}
+
+body>div>section>section:nth-child(2)>span:nth-child(1),
+body>div>section>section:nth-child(6)>span:nth-child(1) {
+    color: #FF974A;
+}
+
+body>div>section>section:nth-child(3)>span:nth-child(1),
+body>div>section>section:nth-child(7)>span:nth-child(1) {
+    color: #0079BF;
+}
+
+body>div>section>section:nth-child(4)>span:nth-child(1) {
+    color: #783DBD;
+}
+
+body>div>section>section>span:nth-child(2) {
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+}
+
+body>div>section>section>span:nth-child(3) {
+    font-size: 1em;
+    font-weight: 400;
+    color: #6F6F6F;
+}
+
+body>div>section>section:last-of-type{
+    background-color: white;
+}
+
+body>div>section>section:last-of-type>span{
+    color: #200E32;
+    font-size: 1.1em;
+    font-weight: 600;
+}

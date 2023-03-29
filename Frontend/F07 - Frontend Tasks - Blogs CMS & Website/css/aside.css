@@ -1,0 +1,89 @@
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 14px;
+    padding: 50px 14px 68px 16px;
+    font-family: 'Poppins', sans-serif;
+    /* min-width: 200px;
+    max-width: 250px; */
+}
+
+aside > span:first-of-type{
+    font-size: 1.85em;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 52px;
+}
+
+aside > span:first-of-type > span{
+    color: #1D968D;
+    padding-bottom: 25px;
+}
+
+aside > span{
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #B2B3BD;
+    padding-bottom: 25px;
+}
+
+aside > span:nth-child(4){
+    padding-top: 18px;
+}
+
+aside > ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside > ul:first-of-type > li{
+    padding: 15px 25px ;
+    border-radius: 10px;
+}
+
+aside > ul:first-of-type > li:last-of-type{
+    padding-bottom: 21px;
+    border-bottom: solid 1px #D8D8D8;
+}
+
+aside > ul:last-of-type{
+    padding-bottom: 392px;
+}
+
+aside > ul > li > a{
+    text-decoration: none;
+    color: #808191;
+}
+
+aside > div{
+    display: flex;
+    flex-direction: column;
+}
+
+aside > div > span:first-of-type{
+    font-size: 1em;
+    color: #11142D;
+}
+
+aside > div > span:last-of-type{
+    font-size: 0.9em;
+    color: #808191;
+}
+
+@media only screen and (max-width: 1280px){
+    aside{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    aside{
+        font-size: 10px;
+        background-color: #1D968D;
+    }
+}

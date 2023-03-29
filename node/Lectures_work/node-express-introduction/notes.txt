@@ -1,0 +1,37 @@
+1- New JS Project
+2- npm init to create package.json file
+    - define project settings
+    - Most Important settings
+        - package name
+        - entry point .js file
+3- install express package
+    - npm install express
+4- in entry point file (app.js)
+    - create a new const and assign to it the value of require('express')
+        - const express = require('express');
+        - create new app instance from express()
+        - start listening to a server using a port
+            - app.listen(port-number)
+    - start using middleware use((req, res) => {})
+    - we can define multiple use()
+    - To go to the next use middleware we can execute req.next()
+        - to responde with a response we can write
+            - res.status(StatusCode).json({JSON:CONTENT})
+
+- To recevie requests we use app.method
+    - app.post, app.get, ...
+    - Example: app.post(urn, (req, res) => {});
+
+- To recevie requests body(POST, PUT, PATCH) we must:
+    - install npm body-parser
+
+- PACKAGES:
+    - nodemon
+    - express
+
+- SCRIPTS: npm command
+    -Skelton:
+        - "npm-command": "original command"
+    - Examples:
+        - "start": "node app.js"    
+        - "start": "nodemon app.js"  //refreshable server

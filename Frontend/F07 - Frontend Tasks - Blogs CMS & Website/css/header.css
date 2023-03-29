@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #1D968D;
+    font-size: 25px;
+    padding: 63px 100px 288px 100px;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 186px;
+    flex-wrap: wrap;
+}
+
+header > nav > span{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 65px;
+    list-style: none;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+header > nav > ul > li:first-of-type{
+    font-weight: 600;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+header > nav > button{
+    width: 217px;
+    height: 68px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+}
+
+header > span{
+    color: #FBFBFB;
+    font-size: 2.4em;
+    padding: 0px 0px 0px 245px;
+    display: block;
+    font-weight: 600;
+    width: 60%;
+}
+
+@media only screen and (max-width: 1280px){
+    header{
+        font-size: 18px;
+        padding: 63px 100px 150px 100px;
+    }
+
+    header > span{
+        width:100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    header > nav {
+        padding-bottom: 186px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    header{
+        font-size: 13px;
+        padding: 40px 40px 40px 40px;
+    }
+
+    header > span{
+        width:100%;
+        padding: 0px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    header > nav {
+        padding-bottom: 86px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    header > nav > span{
+        flex: 1;
+    }
+
+    header > nav > ul{
+        flex: 1;
+    }
+
+    header > nav > button{
+        flex: 1;
+    }
+
+}

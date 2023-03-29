@@ -1,0 +1,341 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+/*START: NAV STYLE*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-left: 76px;
+}
+
+header > nav{
+    padding: 48px 211px 48px 0px;
+}
+
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 55px;
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #707070;
+}
+/*END: NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+section:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    height: 25px;
+    font-size: 28px;
+    background-image: url(../images/cover.png);
+    padding: 336px 487px;
+}
+
+section:first-of-type > span{
+    font-size: 1.6em;
+    color: white;
+    font-weight: 700;
+}
+
+section:first-of-type > p{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+section:first-of-type > button{
+    font-size: 0.86em;
+    color: white;
+    background-color: #037CFF;
+    border-radius: 7px;
+    width: 279px;
+    min-height: 72px;
+    border: none;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN ARTICLE STYLE*/
+.main_article{
+    display: flex;
+    flex-direction: row;
+    padding: 185px 246px 106px 240px;
+    column-gap: 58px;
+    font-size: 18px;
+}
+
+.main_article > div{
+    flex: 1;
+}
+
+.main_article > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+.main_article > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 42px 0px 60px 0px;
+    flex: 1;
+}
+
+.main_article > article > span{
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #037CFF;
+    padding-bottom: 39px;
+}
+
+.main_article > article > p{
+    font-size: 1em;
+    line-height: 31px;
+    color: #868686;
+    margin: 0px;
+    padding-bottom: 18px;
+}
+
+.main_article > article > button{
+    font-size: 1.33em;
+    color: white;
+    background-color: #037CFF;
+    border-radius: 7px;
+    width: 279px;
+    min-height: 72px;
+    border: none;
+}
+/*END: MAIN ARTICLE STYLE*/
+
+
+/*START: SERVICES STYLE*/
+.services{
+    font-size: 18px;
+    padding: 95px 246px 62px 268px;
+    background-color: #F7FBFF;
+}
+
+.services > span{
+    display: block;
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #037CFF;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.services > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+}
+
+.services > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services > div > div > div:first-of-type{
+    padding-bottom: 24px;
+}
+
+.services > div > div > div:last-of-type > span{
+    display: block;
+    padding-bottom: 7px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 1.33em;
+}
+
+.services > div > div > div:last-of-type > p{
+    padding-bottom: 20px;
+    text-align: center;
+    color: #868686;
+    font-size: 1em;
+}
+/*END: SERVICES STYLE*/
+
+
+/*START: MULTI ARTICLES STYLE*/
+.multi_articles{
+    display: flex;
+    flex-direction: column;
+    padding: 103px 229px 86px 240px;
+    font-size: 18px;
+}
+
+.multi_articles > span{
+    display: block;
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #037CFF;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.multi_articles > article{
+    display: flex;
+    flex-direction: row;
+    column-gap: 29px;
+}
+
+.multi_articles > article > article{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 207, 252, 0.1);
+    padding: 0px 15px 35px 15px;
+}
+
+.multi_articles > article > article > div:first-of-type{
+   flex: 1;
+}
+
+.multi_articles > article > article > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+.multi_articles > article > article > div:last-of-type{
+    padding: 30px 8px 0px 8px;
+    flex: 1;
+}
+
+.multi_articles > article > article > div > span{
+    color: #000000;
+    font-size: 1.33em;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.multi_articles > article > article > div > p{
+    color: #707070;
+    font-size: 1em;
+    line-height: 21px;
+}
+
+.multi_articles > article > article > div > a{
+    color: #037CFF;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.multi_articles > button{
+    font-size: 1.33em;
+    color: white;
+    background-color: #037CFF;
+    border-radius: 7px;
+    width: 279px;
+    min-height: 72px;
+    border: none;
+    align-self: center;
+    margin-top: 53px;
+}
+/*END: MULTI ARTICLES STYLE*/
+
+
+/*START: CLIENTS STYLE*/
+.clients{
+    font-size: 18px;
+    padding: 62px 210px 119px 240px;
+    background-color: #F7FBFF;
+}
+
+.clients > span{
+    display: block;
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #037CFF;
+    text-align: center;
+    padding-bottom: 80px;
+}
+/*END: CLIENTS STYLE*/
+
+
+/*START: CONTACT STYLE*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 92px 222px 74px 240px;
+    font-size: 18px;
+}
+
+.contact > span{
+    display: block;
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #037CFF;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.contact > form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.contact > form > div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+.contact > form > div:first-of-type > input{
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(3, 124, 255, 0.12);
+}
+
+.contact > form > div:last-of-type > input{
+    border: none;
+    width: 100%;
+    height: 274px;
+    background-color: rgb(3, 124, 255, 0.12);
+}
+
+.contact > form > button{
+    font-size: 1.33em;
+    color: white;
+    background-color: #037CFF;
+    border-radius: 7px;
+    width: 279px;
+    min-height: 72px;
+    border: none;
+    align-self: center;
+    margin-top: 53px;
+}
+/*END: CONTACT STYLE*/
+
+
+/*START: FOOTER STYLE*/
+footer{
+    display: flex;
+    background-color: #037CFF;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    font-size: 24px;
+}
+
+footer > span{
+    font-size: 1em;
+    color: white;
+}
+/*END: FOOTER STYLE*/

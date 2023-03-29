@@ -1,0 +1,91 @@
+
+/* Aside */
+
+aside > ul:first-of-type > li:nth-child(2){
+    background-color: #1D968D;
+}
+
+aside > ul:first-of-type > li:nth-child(2) > a{
+    color: white;
+    font-weight: 600;
+}
+
+/* Filters */
+div>div:last-of-type {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+div>div:last-of-type>button {
+    color: white;
+    background-color: #1D968D;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 38px;
+    width: 154px;
+}
+
+/* START : Table's Style */
+
+div>section {
+    padding: 0px 85px 0px 24px;
+}
+
+table {
+    font-size: 14px;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+table>thead>tr>th {
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0px;
+    /* vertical-align: middle; */
+}
+
+tr {
+    color: #707683;
+    height: 64px;
+    text-align: left;
+    border-bottom: 1px solid #EBEFF2;
+    /* background-color: #FF974A; */
+}
+
+tr>td:nth-child(2) {
+    font-size: 1.1em;
+    color: #323C47;
+}
+
+table>thead>tr {
+    height: 48px;
+}
+
+tbody>tr>td>button {
+    font-size: 0.9em;
+    border: none;
+    height: 22px;
+    padding: 5px 15px;
+}
+
+tbody>tr:nth-child(1)>td>button,
+tbody>tr:nth-child(3)>td>button,
+tr:nth-child(5)>td>button {
+    color: #FF974A;
+    background-color: #FFF4EC;
+}
+
+tbody>tr:nth-child(2)>td>button,
+tbody>tr:nth-child(4)>td>button,
+tr:nth-child(6)>td>button {
+    color: #1D968D;
+    background-color: rgb(29, 150, 141, 0.1);
+}
+
+/* END : Table's Style */

@@ -1,0 +1,15 @@
+/*START: FOOTER STYLE*/
+footer{
+    display: flex;
+    background-color: #1E2D66;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    font-size: 24px;
+}
+
+footer > span{
+    font-size: 1em;
+    color: white;
+}
+/*END: FOOTER STYLE */

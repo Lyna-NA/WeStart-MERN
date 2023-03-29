@@ -1,0 +1,17 @@
+/*START: HEADER STYLE*/
+.header{
+    height: 100%;
+    font-size: 50px;
+    background-image: url(../images/cover.png);
+    padding: 78px 855px 126px 856px;
+    background-size: cover;
+}
+
+.header > span{
+    display: block;
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+/*END: HEADER STYLE*/

@@ -1,0 +1,44 @@
+/*START: HEADER STYLE*/
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    font-size: 30px;
+    background-image: url(../images/cover.png);
+    padding: 184px 863px 183px 303px;
+    background-size: cover;
+}
+
+.header > span{
+    display: block;
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+    line-height: 88px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.header > p{
+    font-size: 0.53em;
+    color: white;
+    text-align: center;
+    line-height: 31px;
+    text-align: justify;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.header > button{
+    font-size: 0.6em;
+    color: white;
+    background-color: #1E2D66;
+    border-radius: 36px;
+    width: 200px;
+    min-height: 60px;
+    border: none;
+    padding: 0px;
+}
+/*END: HEADER STYLE*/

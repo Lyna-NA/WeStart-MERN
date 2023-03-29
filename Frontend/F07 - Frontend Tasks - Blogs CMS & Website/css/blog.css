@@ -1,0 +1,121 @@
+body > div{
+    padding: 80px 200px 120px 200px;
+    font-size: 20px;
+}
+
+body > div > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    padding-bottom: 100px;
+}
+
+body > div > div > aside{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+body > div > div > aside > div:first-of-type{
+    padding-bottom: 10px;
+}
+
+body > div > div > aside > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+body > div > div > aside > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+}
+
+body > div > div > aside > div > span > span{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #085E57;
+}
+
+body > div > div > aside > div > span{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+body > div > div > article{
+    flex: 2;
+}
+
+div > article > span{
+    font-size: 1.9em;
+    font-weight: 600;
+    color: #085E57;
+    padding-bottom: 40px;
+    display: block;
+}
+
+div > article > p{
+    font-size: 1em;
+    line-height: 50px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1280px){
+
+    body > div{
+        padding: 100px 100px 60px 100px;
+    }
+
+    body > div > div{
+        flex-direction: column;
+    }
+    
+    body > div > div > aside{
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 50px;
+        column-gap: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+
+    body > div{
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    body > div > div{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    body > div > div > aside{
+        flex-direction: column;
+    }
+
+    div > article > span{
+        font-size: 1.3em;
+        padding-bottom: 10px;
+    }
+
+    div > article > p{
+        line-height: 22px;
+    }
+
+    body > div > div > aside > div:first-of-type{
+        display: flex;
+        justify-content: center;
+    }
+
+    body > div > div > aside > div:first-of-type > img{
+        width: 50%;
+        height: 50%;
+    }
+
+    body > div > div > aside > div > span{
+        font-size: 0.8em;
+    }
+}

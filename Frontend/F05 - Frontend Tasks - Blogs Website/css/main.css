@@ -1,0 +1,284 @@
+/*START: THIS WEEK'S HOTTEST STYLE*/
+.weekHottest{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    font-size: 18px;
+    height: 700px;
+    padding: 123px 300px 220px 300px;
+}
+
+.weekHottest > span{
+    font-size: 2.22em;
+    font-weight: 700;
+    color: #1E2D66;
+}
+
+.weekHottest > section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+}
+
+.weekHottest > section > div:first-of-type{
+    flex: 1;
+    background-image: url(../images/week1.png);
+    background-size: cover;
+    padding: 500px 15px 20px 24px;
+}
+
+.weekHottest > section > div:first-of-type > span:first-of-type{
+    display: block;
+    color: white;
+    font-size: 0.77em;
+    padding-bottom: 2px;
+}
+
+.weekHottest > section > div:first-of-type > span:last-of-type{
+    display: block;
+    color: white;
+    font-size: 1.33em;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+
+.weekHottest > section > div:first-of-type > p{
+    color: white;
+    font-size: 1em;
+    margin: 0px;
+}
+
+.weekHottest > section > div:last-of-type{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex: 1;
+}
+
+.weekHottest > section > div:last-of-type > div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    flex: 1;
+}
+
+.weekHottest > section > div:last-of-type > div > div{
+    background-size: cover;
+    padding: 215px 49px 9px 13px;
+}
+
+.weekHottest > section > div:last-of-type > div > div > span:first-of-type{
+    display: block;
+    color: white;
+    font-size: 0.77em;
+    padding-bottom: 2px;
+}
+
+.weekHottest > section > div:last-of-type > div > div> span:last-of-type{
+    display: block;
+    color: white;
+    font-size: 1.33em;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+
+.weekHottest > section > div:last-of-type > div:first-of-type > div:first-of-type{
+    background-image: url(../images/week2.png);
+}
+
+.weekHottest > section > div:last-of-type > div:first-of-type > div:last-of-type{
+    background-image: url(../images/week4.png);
+}
+
+.weekHottest > section > div:last-of-type > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    flex: 1;
+}
+
+.weekHottest > section > div:last-of-type > div:last-of-type > div:first-of-type{
+    background-image: url(../images/week3.png);
+}
+
+.weekHottest > section > div:last-of-type > div:last-of-type > div:last-of-type{
+    background-image: url(../images/week5.png);
+}
+/*END: THIS WEEK'S HOTTEST STYLE*/
+
+
+/*START: POPULAR NEWS STYLE*/
+.popularNews{
+    font-size: 18px;
+    padding: 93px 303px 99px 296px;
+    background-color: #F8F8F8;
+}
+
+.popularNews > span{
+    font-size: 2.22em;
+    font-weight: 700;
+    color: #1E2D66;
+    display: block;
+    padding-bottom: 88px;
+}
+
+.popularNews > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.popularNews > div > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex: 1;
+}
+
+.popularNews > div > div > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.popularNews > div > div > div > div:first-of-type{
+    flex: 2;
+}
+
+.popularNews > div > div > div > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+.popularNews > div > div > div > div:last-of-type{
+    flex: 1;
+}
+
+.popularNews > div > div > div > div:last-of-type > span:first-of-type{
+    display: block;
+    color: #989898;
+    font-size: 0.77em;
+}
+
+.popularNews > div > div > div > div:last-of-type > span:last-of-type{
+    display: block;
+    color: #1E2D66;
+    font-size: 1.33em;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.popularNews > div > div > div > div:last-of-type > p{
+    color: #5A5A5A;
+    font-size: 1em;
+    margin: 0px;
+    line-height: 22px;
+}
+/*END: POPULAR NEWS STYLE*/
+
+
+/*END: HIGHLIGHTS STYLE*/
+.highlights{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding: 235px 303px 88px 303px;
+}
+
+.highlights > div > span{
+    display: block;
+    color: #1E2D66;
+    font-size: 1.33em;
+    font-weight: 700;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(112, 112, 112, 0.17);
+    margin-bottom: 30.5px;
+}
+
+.highlights > div:nth-child(1){
+    flex: 1;
+}
+
+.highlights > div:nth-child(1) > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.highlights > div:nth-child(1) > div > div:first-of-type{
+    flex: 2;
+}
+
+.highlights > div:nth-child(1) > div > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+.highlights > div:nth-child(1) > div > div:last-of-type{
+    flex: 1;
+}
+
+.highlights > div:nth-child(1) > div > div:last-of-type > p{
+    color: #5A5A5A;
+    font-size: 0.88em;
+    margin: 0px;
+    line-height: 19px;
+}
+
+.highlights > div:nth-child(2), 
+.highlights > div:nth-child(3){
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlights > div:nth-child(2) > div, 
+.highlights > div:nth-child(3) > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.highlights > div:nth-child(2) > div > div, 
+.highlights > div:nth-child(3) > div > div{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.highlights > div:nth-child(2) > div > div > div:first-of-type, 
+.highlights > div:nth-child(3) > div > div > div:first-of-type{
+    flex: 1;
+}
+
+.highlights > div:nth-child(2) > div > div > div:first-of-type > img, 
+.highlights > div:nth-child(3) > div > div > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+.highlights > div:nth-child(2) > div > div > div:last-of-type, 
+.highlights > div:nth-child(3) > div > div > div:last-of-type{
+    flex: 1;
+    padding: 30px 0px;
+}
+
+.highlights > div:nth-child(2) > div > div > div:last-of-type > span:first-of-type, 
+.highlights > div:nth-child(3) > div > div > div:last-of-type > span:first-of-type{
+    display: block;
+    color: #989898;
+    font-size: 0.77em;
+    padding-bottom: 7px;
+}
+
+.highlights > div:nth-child(2) > div > div > div:last-of-type > span:last-of-type, 
+.highlights > div:nth-child(3) > div > div > div:last-of-type > span:last-of-type{
+    display: block;
+    color: #1E2D66;
+    font-size: 1em;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+/*END: HIGHLIGHTS STYLE*/

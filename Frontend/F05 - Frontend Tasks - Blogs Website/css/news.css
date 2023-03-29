@@ -1,0 +1,61 @@
+/*START: POPULAR NEWS STYLE*/
+.popularNews{
+    font-size: 18px;
+    padding: 162px 296px 324px 300px;
+    background-color: #F8F8F8;
+}
+
+.popularNews > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.popularNews > div > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex: 1;
+}
+
+.popularNews > div > div > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.popularNews > div > div > div > div:first-of-type{
+    flex: 2;
+}
+
+.popularNews > div > div > div > div:first-of-type > img{
+    width: 100%;
+    height: 100%;
+}
+
+.popularNews > div > div > div > div:last-of-type{
+    flex: 1;
+}
+
+.popularNews > div > div > div > div:last-of-type > span:first-of-type{
+    display: block;
+    color: #989898;
+    font-size: 0.77em;
+}
+
+.popularNews > div > div > div > div:last-of-type > span:last-of-type{
+    display: block;
+    color: #1E2D66;
+    font-size: 1.33em;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.popularNews > div > div > div > div:last-of-type > p{
+    color: #5A5A5A;
+    font-size: 1em;
+    margin: 0px;
+    line-height: 22px;
+}
+/*END: POPULAR NEWS STYLE*/

@@ -1,0 +1,41 @@
+/*START: MAIN ARTICLE STYLE*/
+.main_article{
+    display: flex;
+    flex-direction: row;
+    padding: 166px 303px 161px 303px;
+    column-gap: 30px;
+    font-size: 18px;
+}
+
+.main_article > div{
+    flex: 1;
+}
+
+.main_article > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+.main_article > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px 0px 0px 0px;
+    flex: 1;
+}
+
+.main_article > article > span{
+    font-weight: bold;
+    font-size: 2.77em;
+    color: #037CFF;
+    padding-bottom: 25px;
+}
+
+.main_article > article > p{
+    font-size: 1em;
+    line-height: 31px;
+    color: #868686;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+/*END: MAIN ARTICLE STYLE*/

@@ -1,0 +1,72 @@
+
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0px;
+}
+
+body > div{
+    width: 450px;
+    height: 269px;
+    padding: 25px 30px 36px 40px;
+    font-size: 16px;
+}
+
+body > div > span{
+    color: #1D968D;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 26px;
+}
+
+form > div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-bottom: 70px;
+}
+
+form > div:first-of-type > label{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+form > div:first-of-type > input{
+    height: 50px;
+    border: 0.5px solid #B4B6C4;
+    border-radius: 6px;
+}
+
+form > div:first-of-type > input::placeholder{
+    color: #B4B6C4;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+
+form > div:last-of-type{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+form > div:last-of-type > button{
+    font-size: 1em;
+    font-weight: 700;
+    width: 210px;
+    height: 50px;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+form > div:last-of-type > button:first-of-type{
+    color: black;
+    background-color: #F4F4F4;
+}
+
+form > div:last-of-type > button:last-of-type{
+    color: white;
+    background-color: #1D968D;
+}

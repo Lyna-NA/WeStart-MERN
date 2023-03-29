@@ -1,0 +1,79 @@
+/*START: CONTACT STYLE*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 85px;
+    font-size: 18px;
+    padding: 115px 303px 345px 303px;
+}
+
+.contact > div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 163px;
+}
+
+.contact > div:first-of-type > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact > div:first-of-type > div > span:first-of-type{
+    font-size: 1.33em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 12px;
+}
+
+.contact > div:first-of-type > div > span:last-of-type{
+    font-size: 0.77em;
+    color: #5A5A5A;
+}
+
+.contact > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.contact > div:last-of-type > form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.contact > div:last-of-type > form > div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+.contact > div:last-of-type > form > div:first-of-type > input{
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(90, 90, 90, 0.22);
+}
+
+.contact > div:last-of-type > form > div:last-of-type > input{
+    border: none;
+    width: 100%;
+    height: 274px;
+    background-color:rgb(90, 90, 90, 0.22);
+}
+
+.contact > div:last-of-type > form > button{
+    font-size: 1.33em;
+    color: white;
+    background-color: #1E2D66;
+    border-radius: 7px;
+    width: 279px;
+    min-height: 72px;
+    border: none;
+    align-self: center;
+    margin-top: 53px;
+}
+/*END: CONTACT STYLE*/
